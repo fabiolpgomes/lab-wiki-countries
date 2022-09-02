@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 
 
 function App() {
-  const [ countries, setCountries] = useEffect([]);
+  const [ countries, setCountries] = useState([]);
 
   useEffect(() => {
     async function fetchCountries() {
